@@ -1,0 +1,94 @@
+:root {
+    --clr-foodone-200:   #03dac5;
+    --clr-foodfive-300:  #ff7597;
+    --clr-foodsix-350:   #ff0266;
+    --clr-foodtwo-400:   #bb86fc;
+    --clr-foodfour-500:  #531f91;
+    --clr-foodthree-600: #3700b3;
+    --clr-foodbackg-900: #29292b;
+
+    --ff-primary: 'Roboto', 'sans-serif';
+    --ff-accent: 'Playfair Display', serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+    background-color: var(--clr-foodbackg-900);
+
+}
+
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    color: var(--clr-foodfour-500);
+    text-decoration: underline;
+}
+
+
+h2,
+p {
+    color: var(--clr-foodtwo-400);
+    font-family: var(--ff-accent);
+}
+
+/* Lasagna starts here */
+
+
+
+   .la-ett h1 {
+      color: var(--clr-foodsix-350);
+      margin-bottom: -25px;
+    }
+
+    h3 strong {
+    color: var(--clr-foodsix-350);
+    }
+    
+    .la-tva p {
+        color: var(--clr-foodfive-300);
+        margin-top: -1rem;
+    }
+
+    .bildlasa {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    
+      }
+    .bildlasa__image {
+        max-width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+      }
+
+      .la-tre h4 {
+          color: var(--clr-foodsix-350)
+      }
+
+    .la-tre {
+    text-align: center;
+    color: var(--clr-foodfive-300)
+    }
+
+    * {
+        border: 5px solid green;
+    }
+    
+   
+
+    
