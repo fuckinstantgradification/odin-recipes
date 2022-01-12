@@ -4,7 +4,7 @@ I will follow up on this "README" as I progress throughout The Odin Project.
 
 Follow up 1.
 
-I have added an image from another site, using an absolute link. 
+I've added an image from another site, using an absolute link. 
 Written ordered and unordered lists, linked to internal pages with relative links and used some different fonts and sizes.
 
 Follow up 2.
