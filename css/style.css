@@ -53,41 +53,45 @@ p {
    .la-ett h1 {
       color: var(--clr-foodsix-350);
       margin-bottom: -25px;
-    }
+        }
 
     h3 strong {
-    color: var(--clr-foodsix-350);
-    }
+        color: var(--clr-foodsix-350);
+        }
     
     .la-tva p {
         color: var(--clr-foodfive-300);
-        margin-top: -1rem;
-    }
+        padding: 10px;
+        }
 
     .bildlasa {
         display: block;
         margin-left: auto;
         margin-right: auto;
-    
-      }
+        }
+
     .bildlasa__image {
         max-width: 100%;
         max-height: 400px;
         object-fit: cover;
-      }
+        }
 
-      .la-tre h4 {
-          color: var(--clr-foodsix-350)
-      }
+    .la-tre h4 {
+          color: var(--clr-foodsix-350);
+          text-decoration: underline;
+        }
 
     .la-tre {
-    text-align: center;
-    color: var(--clr-foodfive-300)
-    }
+        text-align: center;
+        color: var(--clr-foodfive-300)
+        }
 
-    * {
-        border: 5px solid green;
-    }
+    .la-tre h5 {
+        color: var(--clr-foodsix-350);
+        text-decoration: underline;
+        }
+
+    
     
    
 
