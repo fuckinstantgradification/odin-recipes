@@ -5,6 +5,7 @@
     --clr-foodtwo-400:   #bb86fc;
     --clr-foodfour-500:  #531f91;
     --clr-foodthree-600: #3700b3;
+    --clr-foodseven-700: #270e5e;
     --clr-foodbackg-900: #29292b;
 
     --ff-primary: 'Roboto', 'sans-serif';
@@ -46,7 +47,7 @@ p {
     font-family: var(--ff-accent);
 }
 
-/* Lasagna starts here */
+        /* Lasagna starts here */
 
 
 
@@ -91,7 +92,62 @@ p {
         text-decoration: underline;
         }
 
+        /* End of Lasagna */
+
+        /* Start of Milk Choclate Fondue */
+
+        header h1 {
+            color: var(--clr-foodthree-600);
+            text-align: left;
+            margin-left: 100px;
+        }
+
+      
+
+        .choklad-ett h3  {
+            margin-left: 188px; 
+            color: var(--clr-foodseven-700);
+            text-decoration: underline;
+        }
+
+        .choklad-ett h4 {
+            color: var(--clr-foodthree-600);
+            margin-left: 76px;
+        }
+
+    .choklad-ett {
+        display: block;
+        text-align: left;
+        margin-right: 0px;
+        margin-bottom: -100px;
+    }
+
+    .choklad-ett__image {
+        max-width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+    .choklad-tva {
+        text-align: left;
+        padding: 50px;
+    }
+
+section h5 {
+    color: var(--clr-foodseven-700)
+}
+
+    .choklad-tre {
+        text-align: left;
+        margin-left: 200px;
+    }
+
     
+ 
+
+
+    
+   
     
    
 
