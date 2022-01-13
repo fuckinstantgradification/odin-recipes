@@ -32,6 +32,10 @@ h1,
 h2,
 p {
     margin: 0;
+    
+}
+
+.intro {
     text-align: center;
 }
 
@@ -49,7 +53,9 @@ p {
 
         /* Lasagna starts here */
 
-
+.intro-lasa {
+    text-align: center;
+}
 
    .la-ett h1 {
       color: var(--clr-foodsix-350);
@@ -138,9 +144,18 @@ section h5 {
 }
 
     .choklad-tre {
-        text-align: left;
-        margin-left: 200px;
+        display: inline-block;
+        outline: 2px solid red;
+       
     }
+
+    
+      
+        
+
+    
+
+    
 
     
  
